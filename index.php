@@ -40,8 +40,9 @@
             <div style="margin:0 8% 0 9%;">
                 <div style="font-size:2.6em; color:#FEF002;">某一九少年制作</div><br />
                 <div style="font-size:2.2em; color:#fff; line-height:1.5em;">
-                   对我们伟大的杨主任无恶意！Salute！<br />
-                    祝各大家2022高考必胜！！！<br />
+                    祝大家2022高考必胜！！S<br />
+                    新年快乐！！Salute！！！<br />
+
                 </div>
                 <br />
                 <div id="btn_group" style="display: block;">
