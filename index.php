@@ -45,24 +45,24 @@
                 </div>
                 <br />
                 <div id="btn_group" style="display: block;">
-                    <button type="button" id="ready-btn" class="btn btn-primary loading btn-lg">点击开始</button>
+                    <button type="button" id="ready-btn" class="btn btn-primary loading btn-lg">开始</button>
                     <br /><br />
-                    <button type="button" class="btn btn-secondary btn-lg" onclick="show_setting()">游戏设置</button>
+                    <button type="button" class="btn btn-secondary btn-lg" onclick="show_setting()">留言设置</button>
                 </div>
                 <div id="setting" style="display: none;">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">名字</span>
                         </div>
-                        <input type="text" id="username" class="form-control" maxlength=8 placeholder="用于纪录排行(特殊字符会被过滤)" aria-label="username" aria-describedby="basic-addon1">
+                        <input type="text" id="username" class="form-control" maxlength=8 placeholder="用于纪录排行" aria-label="username" aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">留言</span>
+                            <span class="input-group-text" id="basic-addon1">你想说的话</span>
                         </div>
-                        <input type="text" id="message" class="form-control" maxlength=50 placeholder="禁广告/脏话(本项可不填)" aria-label="username" aria-describedby="basic-addon1">
+                        <input type="text" id="message" class="form-control" maxlength=50 placeholder="禁广告" aria-label="username" aria-describedby="basic-addon1">
                     </div>
-                    <button type="button" class="btn btn-secondary btn-lg" onclick="show_btn();save_cookie();">完成</button>
+                    <button type="button" class="btn btn-secondary btn-lg" onclick="show_btn();save_cookie();">OK啦</button>
                 </div>
             </div>
         </div>
