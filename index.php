@@ -38,9 +38,9 @@
         <div class="welcome-bg FILL"></div>
         <div class="FILL BOX-M" style="position:absolute;top:0;left:0;right:0;bottom:0;z-index:5;">
             <div style="margin:0 8% 0 9%;">
-                <div style="font-size:2.6em; color:#FEF002;">某一九少年制作</div><br />
+                <div style="font-size:2.6em; color:#FEF002;">别踩春春byLAIME</div><br />
                 <div style="font-size:2.2em; color:#fff; line-height:1.5em;">
-                    祝大家2022高考必胜！！S<br />
+                    祝大家2022高考必胜！！<br />
                     新年快乐！！Salute！！！<br />
 
                 </div>
