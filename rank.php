@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <title>吃掉小鹿乃-排行榜</title>
-  <meta item="description" content="来看神仙" />
+  <title>别踩春春排行榜</title>
+  <meta item="description" content="大佬们" />
   <meta itemprop="image" content="https://www.thac.cc/kano/res/logo.jpg" />
   <meta charset="utf-8" />
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
@@ -37,7 +37,7 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="./index.html">返回</a></li>
-      <li class="breadcrumb-item"><a href="https://www.thac.cc/game/index.php">更多游戏</a></li>
+      <li class="breadcrumb-item"><a href="https://cnm.limovo.workers.dev/">李师傅小导航</a></li>
     </ol>
   </nav>
   <div class="page-header text-center">
@@ -45,7 +45,7 @@
     <a href="?lbtype=day<?php echo $CurrentUser ? "&name=" . $CurrentUser : "" ?>"><button type="button" class="btn btn-outline-secondary btn-sm">日榜</button></a>
     <a href="?lbtype=week<?php echo $CurrentUser ? "&name=" . $CurrentUser : "" ?>"><button type="button" class="btn btn-outline-secondary btn-sm">周榜</button></a>
     <a href="?lbtype=month<?php echo $CurrentUser ? "&name=" . $CurrentUser : "" ?>"><button type="button" class="btn btn-outline-secondary btn-sm">月榜</button></a>
-    <br/>tips:大家不要作弊哦~ฅ'ω'ฅ♪
+    <br/>tips:不要开挂，否则来207，送入违纪培训班
   </div>
   <div class="list-group">
     <?php
@@ -62,7 +62,7 @@
         echo "<a href='#' class='list-group-item list-group-item-action'><div class='d-flex w-100 justify-content-between'>
             <h5 class='mb-1'>" . $rank . "位   " . $name . "</h5><small>" . $time . "</small></div>
             <p class='mb-1'>SCORE: " . $score . " TRY: " . $attempts . " -" . $system . " -" . $area . "</p>
-            <small>" . ($message ? $message : "这个人很懒什么也没留下") . "</small></a>";
+            <small>" . ($message ? $message : "这位一九少年很懒什么也没留下") . "</small></a>";
       }
       $data_stmt->close();
     }
@@ -108,7 +108,7 @@
           }
           $score_stmt->close();
         } else {
-          echo "小提示：你玩前还没有填名字";
+          echo "小提示：你还没有填名字";
         }
         $link->close();
         ?>
