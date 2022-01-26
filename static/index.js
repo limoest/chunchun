@@ -345,6 +345,7 @@ function shareText(score) {
     if (score <= 99) return '还可以，一九少年水平';
     if (score <= 120) return '强，一九青年';
     if (score <= 150) return '你来当年级主任吧'
+    if (score <= 180) return '非人哉'
 }
 
 function toStr(obj) {
